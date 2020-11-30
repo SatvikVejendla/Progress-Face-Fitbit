@@ -1,0 +1,28 @@
+{
+    "devDependencies": {
+      "@fitbit/sdk": "~4.2.0"
+    },
+    "fitbit": {
+      "appUUID": "68630b82-b9d1-4273-9337-c302388d1485",
+      "appType": "clockface",
+      "appDisplayName": "FirstProject",
+      "iconFile": "resources/icon.png",
+      "wipeColor": "",
+      "requestedPermissions": [
+        "access_activity",
+        "access_user_profile"
+      ],
+      "buildTargets": [
+        "mira",
+        "meson",
+        "gemini",
+        "higgs"
+      ],
+      "i18n": {
+        "en-US": {
+          "name": "FirstProject"
+        }
+      },
+      "defaultLanguage": "en-US"
+    }
+  }
