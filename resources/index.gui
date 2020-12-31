@@ -1,14 +1,12 @@
 <svg id="root" viewport-fill="fb-cyan">
-  <gradientRect width="100%" height="100%"
+  <gradientRect id="background" x="0" y="0" width="100%" height="100%"
     gradient-type="linear"
     gradient-x1="0" gradient-y1="0"
-    gradient-x2="100%-50" gradient-y2="100%-50"
-    gradient-color1="blue" gradient-color2="magenta"/>
+    gradient-x2="100%" gradient-y2="100%"
+    gradient-color1="magenta"
+    gradient-color2="blue" />
   
   <text id="clock-label" x="50%" y="50%+15"
-      fill="black" font-size="48" font-family="System-Regular"
+      fill="white" font-size="48" font-family="System-Regular"
       text-anchor="middle" text-length="20">00:00:00</text>
-  
-  <rect id="stepsgoal" x="0" y="0" width="20%" height="20%" fill="yellow" />
-  <rect id="caloriegoal" x="20%" y="0" width="20%" height="0%" fill="blue" />
 </svg>
